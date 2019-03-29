@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonsterGame_Universal", "MonsterGame_Universal.csproj", "{45D687A2-B696-439A-971E-E2AAFD53272A}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		..\MonsterGame_Shared\MonsterGame_Shared.projitems*{45d687a2-b696-439a-971e-e2aafd53272a}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45D687A2-B696-439A-971E-E2AAFD53272A}.Debug|ARM.ActiveCfg = Debug|ARM
+		{45D687A2-B696-439A-971E-E2AAFD53272A}.Debug|ARM.Build.0 = Debug|ARM
+		{45D687A2-B696-439A-971E-E2AAFD53272A}.Debug|ARM.Deploy.0 = Debug|ARM
+		{45D687A2-B696-439A-971E-E2AAFD53272A}.Debug|x64.ActiveCfg = Debug|x64
+		{45D687A2-B696-439A-971E-E2AAFD53272A}.Debug|x64.Build.0 = Debug|x64
+		{45D687A2-B696-439A-971E-E2AAFD53272A}.Debug|x64.Deploy.0 = Debug|x64
+		{45D687A2-B696-439A-971E-E2AAFD53272A}.Debug|x86.ActiveCfg = Debug|x86
+		{45D687A2-B696-439A-971E-E2AAFD53272A}.Debug|x86.Build.0 = Debug|x86
+		{45D687A2-B696-439A-971E-E2AAFD53272A}.Debug|x86.Deploy.0 = Debug|x86
+		{45D687A2-B696-439A-971E-E2AAFD53272A}.Release|ARM.ActiveCfg = Release|ARM
+		{45D687A2-B696-439A-971E-E2AAFD53272A}.Release|ARM.Build.0 = Release|ARM
+		{45D687A2-B696-439A-971E-E2AAFD53272A}.Release|ARM.Deploy.0 = Release|ARM
+		{45D687A2-B696-439A-971E-E2AAFD53272A}.Release|x64.ActiveCfg = Release|x64
+		{45D687A2-B696-439A-971E-E2AAFD53272A}.Release|x64.Build.0 = Release|x64
+		{45D687A2-B696-439A-971E-E2AAFD53272A}.Release|x64.Deploy.0 = Release|x64
+		{45D687A2-B696-439A-971E-E2AAFD53272A}.Release|x86.ActiveCfg = Release|x86
+		{45D687A2-B696-439A-971E-E2AAFD53272A}.Release|x86.Build.0 = Release|x86
+		{45D687A2-B696-439A-971E-E2AAFD53272A}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

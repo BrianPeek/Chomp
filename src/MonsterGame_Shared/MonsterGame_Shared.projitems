@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>9eca84f6-f17e-46e5-b764-6c2550700a5d</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>MonsterGame_Shared</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Animations\IAnimation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Animations\LoopingAnimation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Animations\ReversingAnimation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Animations\ScaleAnimation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Animations\SingleFrameAnimation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AudioManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Data\AchievementData.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Data\LeaderboardData.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Data\LeaderboardItem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Data\MazeTile.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Data\OnOffMenuItem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Data\UserProfile.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Drawables\AchievementDisplay.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Drawables\Enemy.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Drawables\GameOver.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Drawables\GamercardDisplay.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Drawables\GetReady.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Drawables\LivesDisplay.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Drawables\PauseDialog.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Drawables\RectangleBorder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Drawables\MonsterSprite.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FontManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)InputManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)InputManagerGamepad.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Levels\ILevel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Levels\Level6.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Levels\Level5.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Levels\Level4.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Levels\Level3.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Levels\Level1.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Levels\Level2.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Levels\Levels.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Levels\LevelTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MonsterGame.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PathFinder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Properties\AssemblyInfo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)RenderTargetScaler.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Screens\AchievementsScreen.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Screens\GameScreen.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Screens\LeaderboardScreen.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Screens\Screen.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Screens\TitleScreen.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Drawables\Dot.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Drawables\Icon.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Drawables\Maze.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Drawables\Player.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Drawables\ScoreDisplay.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Drawables\Sprite.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)XboxLiveManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)XboxLiveManagerMock.cs" />
+  </ItemGroup>
+</Project>
