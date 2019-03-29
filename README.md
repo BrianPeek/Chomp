@@ -1,6 +1,6 @@
 # Chomp
 
-A sample game written with MonoGame that targets UWP, cross-platform (Windows/Mac/Linux) and Android.  Xbox Live code is included, however the title id and other config is not.  The Xbox Live project for this is no longer running, but you can at least see how the code works.
+A sample game written with MonoGame that targets UWP, cross-platform (Windows/Mac/Linux) and Android.  Xbox Live code is included, however the title id and other config is not.  The Xbox Live config for this project is no longer running, but you can at least see how the code works.
 
 ![chomp](docs/images/game.png)
 
