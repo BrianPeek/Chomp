@@ -5,6 +5,7 @@ A sample game written with MonoGame that targets UWP, cross-platform (Windows/Ma
 ![chomp](docs/images/game.png)
 
 ## Requirements
+
 * [MonoGame v3.7](http://www.monogame.net/downloads/) (or higher)
 * [Visual Studio 2017](https://visualstudio.microsoft.com/) (or higher)
 
