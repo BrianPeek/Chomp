@@ -8,3 +8,7 @@ A sample game written with MonoGame that targets UWP, cross-platform (Windows/Ma
 * [MonoGame v3.7](http://www.monogame.net/downloads/) (or higher)
 * [Visual Studio 2017](https://visualstudio.microsoft.com/) (or higher)
 
+## Credits/Special Thanks
+
+* [Joey Buczek](https://github.com/joeybuczek) - Art
+* [David Wallimann](https://www.davidwallimann.com/) - Music & Sound
